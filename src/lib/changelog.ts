@@ -6,6 +6,15 @@ export type ChangelogEntry = {
 
 export const CHANGELOG: ChangelogEntry[] = [
   {
+    date: "2026-09-11",
+    version: "0.0.2",
+    items: [
+      "Admin register and sign-in with email, password, and 8-digit email code",
+      "Super Admin is created from the backend Super Admin email; other admins stay pending until approval",
+      "Admin accounts and codes stored in MongoDB (admin_users, admin_users_codes)",
+    ],
+  },
+  {
     date: "2026-09-10",
     version: "0.0.1",
     items: [
