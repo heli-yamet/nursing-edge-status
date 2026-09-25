@@ -7,10 +7,37 @@ export type ChangelogEntry = {
 export const CHANGELOG: ChangelogEntry[] = [
   {
     date: "2026-09-25",
-    version: "0.0.4",
+    version: "0.0.7",
     items: [
       "Admin Manual access: grant Nursing Edge access to an email that has not paid; no invitation is sent",
+      "A new learner receives a verification code only when that email is already paid or manually granted",
+      "After verification: Terms and Privacy, one-time orientation, then Home. Practice, Review, and Progress do not open questions",
       "Admin Content Imports: publish selected staged versions; learners still do not see questions",
+    ],
+  },
+  {
+    date: "2026-09-24",
+    version: "0.0.6",
+    items: [
+      "Learner register and sign-in with first name, email, password, and an 8-digit email code",
+      "A verified email that matches an unclaimed purchase links that subscription to the account",
+      "The account page shows whether access is active",
+    ],
+  },
+  {
+    date: "2026-09-23",
+    version: "0.0.5",
+    items: [
+      "A signed Shopify payment creates one unclaimed entitlement",
+      "The buyer email is stored only as a hint. No learner account is created, and no card data is stored",
+    ],
+  },
+  {
+    date: "2026-09-22",
+    version: "0.0.4",
+    items: [
+      "Checkout stays on Shopify. The app holds empty slots for the store and webhook secret and does not invent product or plan IDs",
+      "No question publish",
     ],
   },
   {
@@ -24,7 +51,7 @@ export const CHANGELOG: ChangelogEntry[] = [
     ],
   },
   {
-    date: "2026-09-11",
+    date: "2026-09-18",
     version: "0.0.2",
     items: [
       "Admin register and sign-in with email, password, and 8-digit email code",
@@ -33,7 +60,7 @@ export const CHANGELOG: ChangelogEntry[] = [
     ],
   },
   {
-    date: "2026-09-10",
+    date: "2026-09-17",
     version: "0.0.1",
     items: [
       "Status site homepage with current service status and changelog",
