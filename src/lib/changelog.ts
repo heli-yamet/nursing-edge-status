@@ -6,6 +6,13 @@ export type ChangelogEntry = {
 
 export const CHANGELOG: ChangelogEntry[] = [
   {
+    date: "2026-09-25",
+    version: "0.0.4",
+    items: [
+      "Admin Manual access: grant Nursing Edge access to an email that has not paid; no invitation is sent",
+    ],
+  },
+  {
     date: "2026-09-21",
     version: "0.0.3",
     items: [
