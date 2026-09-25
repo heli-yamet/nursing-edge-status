@@ -10,6 +10,7 @@ export const CHANGELOG: ChangelogEntry[] = [
     version: "0.0.4",
     items: [
       "Admin Manual access: grant Nursing Edge access to an email that has not paid; no invitation is sent",
+      "Admin Content Imports: publish selected staged versions; learners still do not see questions",
     ],
   },
   {
