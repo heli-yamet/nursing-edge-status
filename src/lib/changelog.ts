@@ -6,6 +6,24 @@ export type ChangelogEntry = {
 
 export const CHANGELOG: ChangelogEntry[] = [
   {
+    date: "2026-09-28",
+    version: "0.0.9",
+    items: [
+      "Admin Content Imports: pause selected published versions so they leave the eligible set",
+      "A paused version stays published and is not eligible until it is active again",
+      "Pause is fail-closed and audited; one rejected id pauses nothing",
+    ],
+  },
+  {
+    date: "2026-09-28",
+    version: "0.0.8",
+    items: [
+      "Admin Content Imports shows an eligibility summary: imported, published, MVP-eligible, unavailable or invalid, and unsupported interaction type",
+      "The launch gate of at least 2,000 eligible questions is a report only and is not hard-coded into selection",
+      "Only published, active, valid, complete MCQ or SATA versions are MVP-eligible; a later session must use that same server list",
+    ],
+  },
+  {
     date: "2026-09-25",
     version: "0.0.7",
     items: [
