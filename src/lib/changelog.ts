@@ -6,6 +6,23 @@ export type ChangelogEntry = {
 
 export const CHANGELOG: ChangelogEntry[] = [
   {
+    date: "2026-10-13",
+    version: "0.0.11",
+    items: [
+      "Admin Content Imports: delete selected staged versions that have no attempts and are not on the Calibration set",
+      "A published or attempted version stays in the bank; one rejected id deletes nothing",
+    ],
+  },
+  {
+    date: "2026-09-28",
+    version: "0.0.10",
+    items: [
+      "Admin can save a Product Owner Calibration set of exactly 35 imported question versions",
+      "Ordinary Practice eligibility excludes that Calibration set; the app does not guess the 35 from IDs",
+      "Upload as Calibration or Set selected as Calibration; a count other than 35 is rejected",
+    ],
+  },
+  {
     date: "2026-09-28",
     version: "0.0.9",
     items: [
