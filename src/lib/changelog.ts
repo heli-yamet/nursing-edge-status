@@ -6,6 +6,32 @@ export type ChangelogEntry = {
 
 export const CHANGELOG: ChangelogEntry[] = [
   {
+    date: "2026-10-15",
+    version: "0.0.14",
+    items: [
+      "Physiology workbook: 450 questions stage unpublished with role AP reinforcement",
+      "450 mechanisms, 450 support links, and 5 variant groups are stored; support approval stays null",
+      "A physiology source-system name resolves through its topic binding. The five clinical workbooks keep their previous import path",
+    ],
+  },
+  {
+    date: "2026-10-14",
+    version: "0.0.13",
+    items: [
+      "Clinical workbooks stage question content and store maps, directed links, topics, teaching, and evidence",
+      "2,004 successor clinical versions stay staged as clinical core; 500 siblings stay staged and reserved from Practice",
+      "Published earlier versions stay published. Approvals stay null. A content failure does not remove a sound map",
+    ],
+  },
+  {
+    date: "2026-10-13",
+    version: "0.0.12",
+    items: [
+      "Relationship collections and indexes for registries, maps, directed links, teaching, evidence, exposure, and roles",
+      "No question rows are rewritten, and nothing is published or approved",
+    ],
+  },
+  {
     date: "2026-10-13",
     version: "0.0.11",
     items: [
