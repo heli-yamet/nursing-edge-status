@@ -6,6 +6,15 @@ export type ChangelogEntry = {
 
 export const CHANGELOG: ChangelogEntry[] = [
   {
+    date: "2026-10-16",
+    version: "0.0.15",
+    items: [
+      "Practice leaves out sibling and physiology versions. A published question with no role stays eligible, and the Calibration 35 stay reserved",
+      "Content Imports has a Links tab. Approve or Ban records the admin, that exact revision, and the time",
+      "Imported workbook approvals stay null. Review still shows the original question",
+    ],
+  },
+  {
     date: "2026-10-15",
     version: "0.0.14",
     items: [
