@@ -7,6 +7,17 @@ export type ChangelogEntry = {
 export const CHANGELOG: ChangelogEntry[] = [
   {
     date: "2026-10-26",
+    version: "0.0.17",
+    items: [
+      "Large workbooks import without timing out. Each sheet is checked and saved in one batch, and audit-only sheets are skipped",
+      "A timeout or failed upload shows a clear message instead of \"Failed to fetch\"",
+      "Each import result has a \"Why N failed\" list that groups failed rows by sheet and reason, with example rows",
+      "Workbook cells saved as inline text are read correctly instead of appearing blank",
+      "If Part 2 of a split workbook is imported before Part 1, its references to Part 1 fail as mapping errors while its questions still stage. Importing Part 2 again after Part 1 stores those maps. Nothing is published or approved",
+    ],
+  },
+  {
+    date: "2026-10-26",
     version: "0.0.16",
     items: [
       "Content Imports no longer depends on exact workbook file names. Split or renamed workbooks get the right role",
