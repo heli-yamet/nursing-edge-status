@@ -6,6 +6,15 @@ export type ChangelogEntry = {
 
 export const CHANGELOG: ChangelogEntry[] = [
   {
+    date: "2026-10-26",
+    version: "0.0.16",
+    items: [
+      "Content Imports no longer depends on exact workbook file names. Split or renamed workbooks get the right role",
+      "A valid AP_ITEMS sheet marks physiology questions. Otherwise \"Sibling\" in the file name marks sibling questions, and any other workbook is clinical core",
+      "The import result shows the role used and any warning. Sibling and physiology questions stay out of Practice, and nothing is published or approved",
+    ],
+  },
+  {
     date: "2026-10-16",
     version: "0.0.15",
     items: [
