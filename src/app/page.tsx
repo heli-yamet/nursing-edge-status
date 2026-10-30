@@ -26,16 +26,19 @@ export default function Home() {
         </p>
       </section>
 
-      <section className="mt-10" aria-labelledby="changelog-heading">
+      <section className="mt-10" aria-labelledby="daily-updates-heading">
         <h2
-          id="changelog-heading"
+          id="daily-updates-heading"
           className="text-lg font-semibold text-[#163A59]"
         >
-          Changelog
+          Daily updates
         </h2>
+        <p className="mt-2 text-sm leading-6 text-[#5C6B74]">
+          One entry per working day, newest first.
+        </p>
         <AccordionGroup
           items={CHANGELOG.map((entry, index) => ({
-            id: entry.version,
+            id: `${entry.date}-${entry.version}`,
             title: `${entry.date} · ${entry.version}`,
             defaultOpen: index === 0,
             children: (

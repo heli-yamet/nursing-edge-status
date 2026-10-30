@@ -9,7 +9,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Status · Nursing Edge",
-  description: "Nursing Edge service status and changelog",
+  description: "Nursing Edge service status and daily updates",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

@@ -7,12 +7,40 @@ export type ChangelogEntry = {
 export const CHANGELOG: ChangelogEntry[] = [
   {
     date: "2026-10-30",
+    version: "0.0.21",
+    items: [
+      "Home and Progress show What Happens Next from saved Review cycles: what is due now, the next due time, and cycles near the end of the review window. An ended window stays in history",
+      "Week-of-26-Oct gate checked in unit tests. Review still serves the original question while no alternate link is approved",
+      "Repair and Confirmation stay on the short test delays until 23 November",
+    ],
+  },
+  {
+    date: "2026-10-29",
+    version: "0.0.20",
+    items: [
+      "Progress replaces the placeholder: current accuracy uses the latest valid answer on each clinical question, not every row in the database",
+      "First-to-current change uses the eight change classes from Tuesday's work",
+      "Evidence by topic lists all eight topics; a topic appears only after 10 clinical answers in it, with the same accuracy formula as Results",
+      "One topic accuracy chart. Physiology answers stay in a separate count",
+    ],
+  },
+  {
+    date: "2026-10-28",
+    version: "0.0.19",
+    items: [
+      "Practice and Review ended-session pages show Results from that session's own committed attempts only",
+      "Assigned and answered are separate. Accuracy is correct divided by answered, not by assigned",
+      "Confidence counts, six-state counts, and accuracy by confidence reconcile to the number answered. Zero answered shows a no-answer state, not 0%",
+      "Practice and Review Results never merge. Review keeps clinical and physiology counts separate",
+    ],
+  },
+  {
+    date: "2026-10-27",
     version: "0.0.18",
     items: [
-      "Practice and Review Results use that session's own committed answers. Assigned and answered stay separate, and accuracy is correct divided by answered",
-      "Progress uses the latest answer on each clinical question. First-to-current change uses the eight change classes. A topic appears after 10 answers in it. Physiology answers stay in their own count",
-      "Home and Progress show What Happens Next from saved Review cycles: what is due now, the next due time, and cycles near the end of the review window. An ended window stays in history",
-      "Review still serves the original question while no alternate link is approved. Repair and Confirmation stay on the short test delays until 23 November",
+      "Eight first-to-current change classes with correctness first, then confidence direction on unchanged correctness",
+      "One comparison-compatibility rule for the same clinical identity: same question version or approved nonmaterial successor in lineage; siblings and physiology are never compared",
+      "Invalid, duplicate, and excluded attempts stay out of change and progress evidence",
     ],
   },
   {
