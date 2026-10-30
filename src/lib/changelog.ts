@@ -6,6 +6,16 @@ export type ChangelogEntry = {
 
 export const CHANGELOG: ChangelogEntry[] = [
   {
+    date: "2026-10-30",
+    version: "0.0.18",
+    items: [
+      "Practice and Review Results use that session's own committed answers. Assigned and answered stay separate, and accuracy is correct divided by answered",
+      "Progress uses the latest answer on each clinical question. First-to-current change uses the eight change classes. A topic appears after 10 answers in it. Physiology answers stay in their own count",
+      "Home and Progress show What Happens Next from saved Review cycles: what is due now, the next due time, and cycles near the end of the review window. An ended window stays in history",
+      "Review still serves the original question while no alternate link is approved. Repair and Confirmation stay on the short test delays until 23 November",
+    ],
+  },
+  {
     date: "2026-10-26",
     version: "0.0.17",
     items: [
