@@ -6,6 +6,15 @@ export type ChangelogEntry = {
 
 export const CHANGELOG: ChangelogEntry[] = [
   {
+    date: "2026-11-03",
+    version: "0.0.22",
+    items: [
+      "Admin Content Imports has a Teaching tab. Approve or Ban records the admin, that exact teaching revision, and the time. Imported pre-commit teaching stays unapproved until you act; Interview opens only on an approved revision for the served version",
+      "Question detail on Content Imports shows permanent item, version history, publication, runtime role, and read-only learner usage: answered count, accuracy as correct divided by answered, confidence and six-state counts, and option selections by exact chosen set (including SATA)",
+      "Usage math matches learner Results: same countResults formula, not a separate admin calculation",
+    ],
+  },
+  {
     date: "2026-10-30",
     version: "0.0.21",
     items: [
