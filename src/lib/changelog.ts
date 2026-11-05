@@ -6,6 +6,23 @@ export type ChangelogEntry = {
 
 export const CHANGELOG: ChangelogEntry[] = [
   {
+    date: "2026-11-05",
+    version: "0.0.24",
+    items: [
+      "Admin Overview shows registered learners, active access, recent activity, Review due now, cycles near expiry, and backlog-style cycle counts. Counts only, no charts or scores",
+      "Admin Learning Evidence filters committed attempts by date, topic, format, confidence, six-state, session type, and Review outcome. Accuracy is correct divided by answered, with clinical and physiology kept separate, using the same countResults formula as learner Results and Progress",
+      "Both views are read-only. They do not edit attempts, Review cycles, or Interview records",
+    ],
+  },
+  {
+    date: "2026-11-04",
+    version: "0.0.23",
+    items: [
+      "Admin Learners: search by email for a read-only snapshot of access, Calibration status, Practice and Review activity counts, and a timeline of committed attempts with confidence, six-state, Review effects, Interview deliveries, and physiology support skips as skips",
+      "Review Trace from a timeline entry shows the source attempt, rule set, stage, due and expiry window, pause extension, transitions, session seed and order, deferred owners, and when an approved link placed a sibling or physiology question",
+    ],
+  },
+  {
     date: "2026-11-03",
     version: "0.0.22",
     items: [
