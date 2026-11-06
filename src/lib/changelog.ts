@@ -6,6 +6,15 @@ export type ChangelogEntry = {
 
 export const CHANGELOG: ChangelogEntry[] = [
   {
+    date: "2026-11-06",
+    version: "0.0.25",
+    items: [
+      "Admin Audit lists publish, pause, delete, access grants, imports, link decisions, teaching decisions, and learner exports, with filters for actor, date, action, and outcome",
+      "Operator learner export is keyed on learner id. The file has attempts, Review cycles, and Interview deliveries, and leaves out name, email, and answer keys. Each download is recorded in Audit",
+      "Week-of-3-Nov gate checked in unit tests. One teaching decision records the admin, revision, and time. Imported teaching stays unapproved until Approve. Audit and export do not edit attempts, Review cycles, Interview records, or answer keys",
+    ],
+  },
+  {
     date: "2026-11-05",
     version: "0.0.24",
     items: [
