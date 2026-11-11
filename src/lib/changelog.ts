@@ -6,6 +6,24 @@ export type ChangelogEntry = {
 
 export const CHANGELOG: ChangelogEntry[] = [
   {
+    date: "2026-11-10",
+    version: "0.0.27",
+    items: [
+      "Unit tests lock pre-commit player payloads: open and held-feedback question JSON stays stem and safe options only; answer keys, rationales, and post-commit teaching stay off the wire before commit",
+      "Practice and Review pages load question content only through the trimmed server projection, not a full question version document",
+      "Every sensitive admin API route requires an active admin session; learner Practice, Review, Baseline, commit, draft, interview, and session control routes bind work to the signed-in learner, not a client-supplied session or learner id",
+    ],
+  },
+  {
+    date: "2026-11-09",
+    version: "0.0.26",
+    items: [
+      "The learner API resolves MongoDB database name from MONGODB_DB_NAME, or from the database segment in MONGODB_URI when set, instead of always using a single hard-coded name",
+      "nursing-edge and nursing-edge-admin .env.example document local dev vs production names; nursing-edge/docs/mongodb-environment.md describes Vercel checks and when not to run destructive imports from a laptop",
+      "Admin UI still uses only the learner API for data; it does not open its own MongoDB connection",
+    ],
+  },
+  {
     date: "2026-11-06",
     version: "0.0.25",
     items: [
