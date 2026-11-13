@@ -6,6 +6,15 @@ export type ChangelogEntry = {
 
 export const CHANGELOG: ChangelogEntry[] = [
   {
+    date: "2026-11-13",
+    version: "0.0.28",
+    items: [
+      "Friday security checkpoint (v5.1 Gates 26 and 27): dev and prod database naming, backup manifest, and a successful dev restore drill are documented; ops must verify MONGODB_DB_NAME before any destructive import or restore",
+      "Admin API CORS reflects only origins listed in ADMIN_ORIGIN; learner session cookies use Secure in production; Shopify webhooks stay rejected until SHOPIFY_WEBHOOK_SECRET is set and HMAC verifies",
+      "Unit tests cover pre-commit payloads, admin and learner route auth, and the checkpoint controls. Two invariants.test.ts delay cases remain expected until 23 November. Live Shopify revoke and restore proof is deferred until store credentials are on Vercel",
+    ],
+  },
+  {
     date: "2026-11-10",
     version: "0.0.27",
     items: [
