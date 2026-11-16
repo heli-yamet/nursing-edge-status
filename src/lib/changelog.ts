@@ -6,6 +6,15 @@ export type ChangelogEntry = {
 
 export const CHANGELOG: ChangelogEntry[] = [
   {
+    date: "2026-11-16",
+    version: "0.0.29",
+    items: [
+      "Super Admin Database page: backup and restore the learner MongoDB database to private Vercel Blob archives (manifest collections, NDJSON, validate before restore, type backup name to confirm)",
+      "Backup and restore runbooks and the week-of-9-Nov security checkpoint now treat Admin Blob as the operator path; local mongodump and mongorestore scripts are optional engineering tools only",
+      "Shopify webhooks and production Vercel env (MongoDB, session secrets, Blob) confirmed by the client; security week gate closed with Developer Complete still ahead on the overall plan",
+    ],
+  },
+  {
     date: "2026-11-13",
     version: "0.0.28",
     items: [
