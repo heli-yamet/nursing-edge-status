@@ -6,6 +6,15 @@ export type ChangelogEntry = {
 
 export const CHANGELOG: ChangelogEntry[] = [
   {
+    date: "2026-11-17",
+    version: "0.0.30",
+    items: [
+      "Accessibility week (Tuesday): keyboard tab order and visible focus rings on learner Home, Practice, Review, and Progress shells, plus admin sign-in nav, Content Imports, Learners, Overview, Audit, and Database backup flows",
+      "Skip-to-main-content links on learner and admin app shells; global :focus-visible styling and scroll margin so focus is not hidden under sticky headers",
+      "Dialogs and confirmations (end session, question detail, database backup/restore, job overlay) trap focus while open and return focus to the control that opened them when closed; known limits are listed in nursing-edge/scripts/accessibility-keyboard-focus.md for Developer Complete notes",
+    ],
+  },
+  {
     date: "2026-11-16",
     version: "0.0.29",
     items: [
