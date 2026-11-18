@@ -6,6 +6,15 @@ export type ChangelogEntry = {
 
 export const CHANGELOG: ChangelogEntry[] = [
   {
+    date: "2026-11-18",
+    version: "0.0.31",
+    items: [
+      "Accessibility week (Wednesday): screen-reader labels and roles on learner Practice/Review question flow (MCQ/SATA fieldsets, confidence radios, support skip, end-session dialog) plus polite post-commit announcements that state outcome and confidence without reading full rationales",
+      "Admin document titles for Overview, imports, learners, audit, learning evidence, database, and access; filter panels and table FilterMenu controls have discernible names",
+      "Pre-commit player safety reaffirmed in player-question and player-load tests; notes and limits for Developer Complete in nursing-edge/scripts/accessibility-screen-reader.md",
+    ],
+  },
+  {
     date: "2026-11-17",
     version: "0.0.30",
     items: [
