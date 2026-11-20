@@ -6,6 +6,15 @@ export type ChangelogEntry = {
 
 export const CHANGELOG: ChangelogEntry[] = [
   {
+    date: "2026-11-19",
+    version: "0.0.32",
+    items: [
+      "Accessibility week (Thursday): contrast pass on the teal and navy palette; commit and interview errors use #9B2C2C; text links on white prefer #08666C",
+      "Practice and Review question flow: confidence and answer selection show border, weight, and semibold label cues—not color alone; six-state copy stays text-only; narrow (~390px) layout uses full-width actions, break-words on stem and options",
+      "Admin import FilterMenu and question jump controls at 48px touch height; baseline and calibration secondary buttons aligned to dark teal; Developer Complete notes in nursing-edge/scripts/accessibility-contrast-mobile.md",
+    ],
+  },
+  {
     date: "2026-11-18",
     version: "0.0.31",
     items: [
