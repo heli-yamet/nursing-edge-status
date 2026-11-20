@@ -6,6 +6,15 @@ export type ChangelogEntry = {
 
 export const CHANGELOG: ChangelogEntry[] = [
   {
+    date: "2026-11-20",
+    version: "0.0.33",
+    items: [
+      "Friday launch scenario gate (week of 16 Nov): paid or manual-grant access, revoked access blocking Practice and Review, Practice commit flow, Review from due cycles, read-only admin Overview and Learning Evidence, and pre-commit player safety traced in unit tests with notes in nursing-edge/scripts/launch-scenarios.md",
+      "Restore resume evidence unchanged: dev clone drill verification passed with the same ACTIVE session and attempt totals after restore; operators use Super Admin Database Blob backup and restore per mongodb-restore.md",
+      "Developer Complete remains 25 Nov: reset Repair and Confirmation test delays to 24h and 72h on 23 Nov, then end-to-end staging walkthrough and packaged handoff; client update draft in nursing-edge/scripts/client-update-draft-2026-11-20.md",
+    ],
+  },
+  {
     date: "2026-11-19",
     version: "0.0.32",
     items: [
