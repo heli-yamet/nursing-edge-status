@@ -6,6 +6,15 @@ export type ChangelogEntry = {
 
 export const CHANGELOG: ChangelogEntry[] = [
   {
+    date: "2026-11-23",
+    version: "0.0.34",
+    items: [
+      "Monday Developer Complete track: Review Repair delay reset to 24 hours and Confirmation to 72 hours in the learner app; Review active window restored to 14 days with a 24-hour expiry-near band for Progress outlook",
+      "Full nursing-edge unit suite on this machine: 412 passed with five documented workbook ENOENT skips; invariants and review-outlook delay expectations green",
+      "Launch scenario and release-walkthrough notes updated in nursing-edge/scripts for staging when the client is ready",
+    ],
+  },
+  {
     date: "2026-11-20",
     version: "0.0.33",
     items: [
