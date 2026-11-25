@@ -6,6 +6,15 @@ export type ChangelogEntry = {
 
 export const CHANGELOG: ChangelogEntry[] = [
   {
+    date: "2026-11-25",
+    version: "0.0.35",
+    items: [
+      "Developer Complete milestone: learner Practice, Review, Results, and Progress; admin Overview, Learners, Learning Evidence, Content Imports with publish and link/teaching Approve, Audit, learner export, and Super Admin Database backup/restore",
+      "Handoff package in nursing-edge/scripts/developer-complete-handoff and client message in nursing-edge/scripts/client-update-developer-complete-2026-11-25.md; Wed gate test run 417 passed with 24h Repair and 72h Confirmation in production delay constants",
+      "Imported directed links and Review teaching remain unapproved until the client acts in admin; Practice launch still requires mvp_eligible at least 2,000 published questions per the eligibility report",
+    ],
+  },
+  {
     date: "2026-11-23",
     version: "0.0.34",
     items: [
@@ -314,4 +323,4 @@ export const CHANGELOG: ChangelogEntry[] = [
 ];
 
 export const SERVICE_STATUS_MESSAGE =
-  "The Nursing Edge service is in progress";
+  "Developer Complete milestone delivered 25 November 2026; client publish and link or teaching approval remain before public launch";
